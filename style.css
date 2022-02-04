@@ -37,10 +37,7 @@ nav .liens a{
     border-bottom: 3px solid black;
     padding-bottom: 5px;
 }
-@media screen and (max-width: 680px){
-    margin-left: 0px;
-    margin-bottom: 20px;
-}
+
 header{
     display: flex;
     flex-direction: column;
@@ -99,11 +96,11 @@ header button{
     margin-top: 5px;
 }
 footer{
-    margin-top: 40px;
+    margin-top: 10px;
     border-top: 5px solid #6f6f6f;
     background-color: #000;
     color: #fff; 
-    padding: 30px 100px; 
+    padding: 35px 50px; 
 }
 footer h1{
     font-family: 'Times New Roman', Times, serif;
@@ -118,10 +115,39 @@ footer .services{
     margin-left: 10px;
 }
 footer .services .service{
-    margin-right: 40px;
-    padding: 40px;
+    margin-right: 20px;
+    padding: 4px;
     
 }
 footer .services .service p{
     max-width: 300px;
+}
+@media screen and (max-width:680px){
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:420px){
+
+    .main .content .card{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        font-size: 10px;  
+    }
+    .services .service p {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        font-size: 12px; 
+    }
+    footer{
+        margin-top: 5px;
+        border-top: 5px solid #6f6f6f;
+        background-color: #000;
+        color: #fff; 
+        padding: 5px 10px; 
+    }
+
 }
